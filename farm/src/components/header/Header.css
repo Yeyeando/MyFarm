@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.my-header{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background-color: rgb(44, 240, 44);
+    height: 5em;
+    padding-right: 20px;
+}
+.my-header h1{
+    padding-top: 20px;
+    font: 150% sans-serif;
+    font-size: 25pt;
+}
+
+.header-logo img{
+    width: 5em;
+    height: 5em;
+}
+
+@media only screen and (max-width: 600px) {
+    .my-header h1{
+        font-size: 15pt;
+    }
+  }

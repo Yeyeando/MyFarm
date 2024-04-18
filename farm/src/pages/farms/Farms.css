@@ -1,0 +1,12 @@
+.farms-flex{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+@media only screen and (max-width: 720px) {
+    .farms-flex{
+        flex-wrap: wrap;
+    }
+  }

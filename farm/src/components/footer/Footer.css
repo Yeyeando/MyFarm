@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.my-footer{
+    background-color: rgb(44, 240, 44);
+    height: 5em;
+    
+}
+
+
+.footer-text{
+    padding-top: 20px;
+    font: 150% sans-serif;
+    font-size: 15pt;
+}
+
+@media only screen and (max-width: 600px) {
+    .footer-text{
+        font-size: 10pt;
+    }
+  }

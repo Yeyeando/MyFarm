@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.home-flex{
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.home-class-animals{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+}
+
+.home-list-animals-cards{
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: space-around;
+}
+
+.home-animal-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1em;
+    border-radius: 20px;
+    padding: 10px;
+    width: 17vw;
+    height: 40vh;
+    border: 2px solid rgb(9, 155, 4);
+    background-color: rgb(7, 212, 7);
+}
+.home-animal-card img{
+    border-radius: 20px;
+    max-width: 100%;
+    max-height: 100%;
+}
+.home-footer-card{
+    max-width: 100%;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+    .home-animal-card {
+        width: 80vw;
+    }
+    .home-footer-card{
+        overflow: scroll;
+    }
+    .home-animal-card img{
+        max-width: 100%;
+        max-height: 75%;
+    }
+    .home-image-card{
+        height: 70%;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    .home-animal-card {
+        width: 40vw;
+    }
+    .home-footer-card{
+        font-size: 16pt;
+    }
+    .home-animal-card img{
+        max-height: 100%;
+    }
+    .home-image-card{
+        height: 30%;
+    }
+  }
+  @media only screen and (min-width: 1024px) {
+    .home-animal-card{
+        width: 28vw;
+        height: 70vh;
+    }
+    .home-footer-card{
+        font-size: 16pt;
+
+    }
+    .home-image-card{
+        height: 55%;
+    }
+  }
