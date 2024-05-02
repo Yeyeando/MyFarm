@@ -6,8 +6,7 @@ const Map = () => {
   const positions = [
     { lat: 28.013950, lng: -15.647911 },
     { lat: 27.940700, lng: -15.658989 },
-    { lat: 28.009581, lng: -15.502497 } // Ejemplo de otra posición
-    // Puedes añadir más posiciones aquí
+    { lat: 28.009581, lng: -15.502497 } 
   ];
   return (
     

@@ -1,29 +1,81 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+}
+
+.header-links{
+    list-style: none;
+    width: 100%;
+    position: absolute;
+    top: 150px;
+    left: 0;
+    height: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+    z-index: 1;
+    transition: all .3s;
 }
 
 .my-header{
+    height: 150px;
+    background-color: rgb(44, 240, 44);
+}
+
+.my-header p{
+    font-size: 3em;
+    font-weight: bold;
+}
+.navbar{
+    height: 100%;
     display: flex;
     justify-content: space-between;
-    align-content: center;
-    background-color: rgb(44, 240, 44);
-    height: 5em;
-    padding-right: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    padding: 0 2rem;
+
 }
-.my-header h1{
-    padding-top: 20px;
-    font: 150% sans-serif;
-    font-size: 25pt;
+.menu_hamburguesa{
+    display: none;
 }
+
+.menu_hamburguesa:checked + .header-links{
+    height: calc(70vh - 150px);
+    background-color: rgb(74, 252, 39);
+    width: 100%;
+}
+
+
 
 .header-logo img{
-    width: 5em;
-    height: 5em;
+    width: 9em;
+    height: 9em;
 }
 
-@media only screen and (max-width: 600px) {
-    .my-header h1{
-        font-size: 15pt;
+
+@media only screen and (min-width: 760px) {
+    .label_hamburguesa{
+        display: none;
+    }
+
+    .header-links{
+        position: static;
+        width: auto;
+        height: auto;
+        flex-direction: row;
+        gap: 2.5rem;
+    }
+    .my-header p{
+        font-size: 40px;
+    }
+    .menu_hamburguesa:checked{
+        height: calc(70vh - 150px);
+        background-color: rgb(74, 252, 39);
+        width: 100%;
     }
   }
