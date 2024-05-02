@@ -13,7 +13,7 @@ const ChartComponent = ({ data, animal }) => {
                 labels: ['Consumo de agua', 'Cantidad de espacio requerido', 'Requerimientos nutricionales', 'Necesidad de compañeros', 'Longevidad de vida', 'Dificultad de mantenimiento'],
                 datasets: [{
                     label: `${animal}`,
-                    data: data.data, // Utiliza los datos proporcionados
+                    data: data.data, 
                     backgroundColor: [
                         'rgba(255, 99, 132, 0.2)',
                         'rgba(54, 162, 235, 0.2)',
