@@ -41,7 +41,7 @@ function Header() {
         <div className="my-header">
             <nav className="navbar">
                 <div className="header-logo">
-                    <img src="../../../public/img/granjamiga.png" alt="logo" />
+                    <img src="../../../img/granjamiga.png" alt="logo" />
                 </div>
                 <label className="label_hamburguesa" htmlFor="menu_hamburguesa">
                     <svg

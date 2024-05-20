@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>RSS GranjAmiga</title>
+  <link>https://farm-6c524.web.app/home</link>
+  <description>Todos los detalles de nuestra página web</description>
+  <language>es-ES</language>
+  <pubDate>Mon, 20 May 2024 18:02:29 +0200</pubDate>
+  <lastBuildDate>Mon, 20 May 2024 18:02:29 +0200</lastBuildDate>
+  <item>
+    <title>Información de los animales</title>
+    <link>https://farm-6c524.web.app/home</link>
+    <description>Hazte una idea de los animales que podrías tener en tu granja</description>
+    <pubDate>Mon, 20 May 2024 18:02:29 +0200</pubDate>
+  </item>
+  <item>
+    <title>Datos de los animales</title>
+    <link>https://farm-6c524.web.app/animals</link>
+    <description>Analiza cuales son los animales que más se adecuen a tu granja</description>
+    <pubDate>Mon, 20 May 2024 18:02:29 +0200</pubDate>
+ 
+  </item>
+  <item>
+    <id></id>
+    <title>Encuentranos</title>
+    <link>https://farm-6c524.web.app/farms</link>
+    <description>Ven a visitar nuestras granjas y pide los consejos que necesites</description>
+    <pubDate>Mon, 20 May 2024 18:02:29 +0200</pubDate>
+  </item>
+</channel>
+
+</rss>

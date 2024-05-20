@@ -1,10 +1,8 @@
-## About the app
-This is the template for an application about the animals we could get on our farm.
+# React + Vite
 
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-The idea of ​​the app would be to make it easier for people to assess which animals are ideal for their farm, 
-how difficult it is to maintain them, and their approximate expenses.
-## Acknowledgments
-* [othneildrew ](https://github.com/othneildrew/Best-README-Template/blob/master/README.md?plain=1)
-* [W3schools](https://www.w3schools.com/)
-* [leafletjs](https://leafletjs.com/)
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
